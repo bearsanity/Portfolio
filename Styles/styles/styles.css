@@ -278,3 +278,85 @@ footer {
     padding: 15px 0;
     font-family: Arial, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    font-size: 200%;
+  }
+
+  .bearbox {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .about-left img {
+    width: 220px;
+  }
+
+  .about-right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .projects-body {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .project-item {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .social-icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .social-icons img {
+    width: 60px;
+  }
+
+  .contact h3 {
+    font-size: 90%;
+    word-wrap: break-word;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  body {
+    font-size: 90%;
+  }
+}
